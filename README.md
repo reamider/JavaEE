@@ -1,2 +1,2 @@
 # JavaEE
-Projekty z Javy Enterprise
+Projekt JDBC z Javy Enterprise

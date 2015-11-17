@@ -6,7 +6,7 @@ import main.java.com.smatyjas.domain.Klient;
 import main.java.com.smatyjas.domain.Bilet;
 import main.java.com.smatyjas.domain.Sprzedaz;
 
-public class KlientManager {
+public class SprzedazManager {
 	private List<Klient> klienci = new ArrayList<Klient>();
 	private List<Bilet> bilety = new ArrayList<Bilet>();
 	private List<Sprzedaz> sprzedaze = new ArrayList<Sprzedaz>();

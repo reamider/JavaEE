@@ -1,13 +1,13 @@
 # JavaEE
 3 JSP i o projekcie
-W pierwszym projekcie bÄ™dÄ™ zwracaÅ‚ uwagÄ™ na:
+W pierwszym projekcie bêdê zwraca³ uwagê na:
 
-Implementacja CRUD dla swojego tematu. Baza danych moÅ¼e byÄ‡ zrealizowana jako lista albo mapa w pamiÄ™ci - nie jest konieczne poÅ‚Ä…czenie do bazy. JeÅ›li ktoÅ› zrobi to nie bÄ™dzie miaÅ‚o wpÅ‚ywu na punktacjÄ™
-Co najmniej jeden zwykÅ‚y servlet realizujÄ…cy jakieÅ› zadanie (tu jest pewna dowolnoÅ›Ä‡, wiÄ™c nie podajÄ™ do czego miaÅ‚by sÅ‚uÅ¼yÄ‡. ZastanÃ³w siÄ™ co by pasowaÅ‚o w Twoim temacie)
+Implementacja CRUD dla swojego tematu. Baza danych mo¿e byæ zrealizowana jako lista albo mapa w pamiêci - nie jest konieczne po³¹czenie do bazy. Jeœli ktoœ zrobi to nie bêdzie mia³o wp³ywu na punktacjê
+Co najmniej jeden zwyk³y servlet realizuj¹cy jakieœ zadanie (tu jest pewna dowolnoœæ, wiêc nie podajê do czego mia³by s³u¿yæ. Zastanów siê co by pasowa³o w Twoim temacie)
 Strony JSP
 Wykorzystanie formularzy (beany)
-Wykorzystanie moÅ¼liwoÅ›ci iterowania w JSP (np wypisanie na stronie wszystkich rekordÃ³w pasujÄ…cych do wzorca)
-Na wynik bÄ™dzie wpÅ‚ywaÅ‚o:
-JakoÅ›Ä‡ kodu, to znaczy: indentacja, spÃ³jnoÅ›Ä‡ nazewnictwa, rozsÄ…dne rozdzielenie kodu na paczki, komentarze, podawanie ÅºrÃ³deÅ‚ w przypadku korzystania z cudzych rozwÄ…zaÅ„
-ZgodnoÅ›Ä‡ zwracanych HTML-i ze standardami (walidator w3c)
-Wykorzystanie repozytorium, w skrajnym przypadku moÅ¼na dostaÄ‡ 0pkt za projekt mimo iÅ¼ by on byÅ‚ supercudownyiwszystkomajÄ…cy
+Wykorzystanie mo¿liwoœci iterowania w JSP (np wypisanie na stronie wszystkich rekordów pasuj¹cych do wzorca)
+Na wynik bêdzie wp³ywa³o:
+Jakoœæ kodu, to znaczy: indentacja, spójnoœæ nazewnictwa, rozs¹dne rozdzielenie kodu na paczki, komentarze, podawanie Ÿróde³ w przypadku korzystania z cudzych rozw¹zañ
+Zgodnoœæ zwracanych HTML-i ze standardami (walidator w3c)
+Wykorzystanie repozytorium, w skrajnym przypadku mo¿na dostaæ 0pkt za projekt mimo i¿ by on by³ supercudownyiwszystkomaj¹cy

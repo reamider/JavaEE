@@ -15,11 +15,11 @@ public class Klient {
 		this.numertelefonu = numertelefonu;
 	}
 	
-	public int getId(){
+	public int getId_klient(){
 		return id_klient;
 	}
 	
-	public void setId(int id_klient){
+	public void setId_klient(int id_klient){
 		this.id_klient = id_klient;
 	}
 	

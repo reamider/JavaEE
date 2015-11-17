@@ -15,11 +15,11 @@ public class Bilet {
 		this.opis = opis;
 	}
 	
-	public int getId(){
+	public int getId_bilet(){
 		return id_bilet;
 	}
 	
-	public void setId(int id_bilet){
+	public void setId_bilet(int id_bilet){
 		this.id_bilet = id_bilet;
 	}
 	

@@ -34,4 +34,16 @@ public class KlientManager {
 		nowaSprzedaz.setId_sprzedaz(id_sprzedaz);
 		sprzedaze.add(nowaSprzedaz);
 	}
+	
+	public List<Klient> pobierzKlientow() {
+		return klienci;
+	}
+	
+	public List<Bilet> pobierzBilety() {
+		return bilety;
+	}
+	
+	public List<Sprzedaz> pobierzSprzedaz() {
+		return sprzedaze;
+	}
 }

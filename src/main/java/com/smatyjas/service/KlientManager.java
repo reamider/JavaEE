@@ -12,7 +12,7 @@ public class KlientManager {
 	private List<Sprzedaz> sprzedaze = new ArrayList<Sprzedaz>();
 	private int id_klient = 0;
 	private int id_bilet = 0;
-	private int id_przedstawienie = 0;
+	private int id_sprzedaz = 0;
 	
 	public void dodajKlienta(Klient klient) {
 		Klient nowyKlient = new Klient(klient.getImie(), klient.getNazwisko(), klient.getNumertelefonu() );
@@ -26,5 +26,12 @@ public class KlientManager {
 		id_bilet++;
 		nowyBilet.setId_bilet(id_bilet);
 		bilety.add(nowyBilet);
+	}
+	
+	public void dodajSprzedaz(Sprzedaz sprzedaz) {
+		Sprzedaz nowaSprzedaz = new Sprzedaz(sprzedaz.getId_klient(), sprzedaz.getId_bilet() );
+		id_sprzedaz++;
+		nowaSprzedaz.setId_sprzedaz(id_sprzedaz);
+		sprzedaze.add(nowaSprzedaz);
 	}
 }

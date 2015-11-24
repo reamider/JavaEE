@@ -4,11 +4,11 @@ public class Klient {
 	private int id_klient;
 	private String imie;
 	private String nazwisko;
-	private String numertelefonu;
+	private int numertelefonu;
 	
 	public Klient() {}
 	
-	public Klient(String imie, String nazwisko, String numertelefonu){
+	public Klient(String imie, String nazwisko, int numertelefonu){
 		super(); 
 		this.imie = imie;
 		this.nazwisko = nazwisko;
@@ -39,11 +39,11 @@ public class Klient {
 		this.nazwisko = nazwisko;
 	}
 	
-	public String getNumertelefonu(){
+	public int getNumertelefonu(){
 		return numertelefonu;
 	}
 	
-	public void setNumertelefonu(String numertelefonu){
+	public void setNumertelefonu(int numertelefonu){
 		this.numertelefonu = numertelefonu;
 	}
 }

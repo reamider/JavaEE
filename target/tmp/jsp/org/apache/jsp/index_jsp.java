@@ -57,7 +57,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("}\n");
       out.write("</style>\n");
       out.write("<body bgcolor=\"black\">\n");
-      out.write("<h1><font color=\"blue\"><center>Kino</blue></center></h1>\n");
+      out.write("<h1><font color=\"white\"><center>WITAMY W KINIE</center></font></h1>\n");
       out.write("<div class=\"body-content\">\n");
       out.write("<div class=\"row\">\n");
       out.write("<a href=\"pobierzDaneKlienta.jsp\"><h2><font color=\"green\">Dodaj Klienta</font></h2></a>\n");

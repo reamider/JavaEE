@@ -14,7 +14,7 @@ body{
 }
 </style>
 <body bgcolor="black">
-<h1><font color="blue"><center>Kino</blue></center></h1>
+<h1><font color="white"><center>WITAMY W KINIE</center></font></h1>
 <div class="body-content">
 <div class="row">
 <a href="pobierzDaneKlienta.jsp"><h2><font color="green">Dodaj Klienta</font></h2></a>

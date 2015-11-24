@@ -6,6 +6,13 @@
 <title>Kino</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<style rel="stylesheet" type="text/css">
+body{
+	background-color: #000000; 
+	background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
+	background-position: center top; no-repeat;
+}
+</style>
 <body bgcolor="black">
 <h1><font color="blue"><center>Kino</blue></center></h1>
 <div class="body-content">

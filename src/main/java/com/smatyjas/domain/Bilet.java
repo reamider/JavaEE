@@ -3,12 +3,12 @@ package main.java.com.smatyjas.domain;
 public class Bilet {
 	private int id_bilet;
 	private String rodzaj;
-	private double cena;
+	private int cena;
 	private String opis;
 	
 	public Bilet() {}
 	
-	public Bilet(String rodzaj, double cena, String opis){
+	public Bilet(String rodzaj, int cena, String opis){
 		super();
 		this.rodzaj = rodzaj;
 		this.cena = cena;
@@ -31,11 +31,11 @@ public class Bilet {
 		this.rodzaj = rodzaj;
 	}
 	
-	public double getCena(){
+	public int getCena(){
 		return cena;
 	}
 	
-	public void setCena(double cena){
+	public void setCena(int cena){
 		this.cena = cena;
 	}
 	

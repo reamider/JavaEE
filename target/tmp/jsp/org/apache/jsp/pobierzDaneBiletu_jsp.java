@@ -52,8 +52,8 @@ public final class pobierzDaneBiletu_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\r\n");
       out.write("<style rel=\"stylesheet\" type=\"text/css\">\r\n");
       out.write("body{\r\n");
-      out.write("\tbackground-color: #000000; \r\n");
-      out.write("\tbackground: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); \r\n");
+      out.write("\tbackground-color: #000000;\r\n");
+      out.write("\tbackground: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); \r\n");
       out.write("\tbackground-position: center top; no-repeat;\r\n");
       out.write("\t}\r\n");
       out.write(".contentbox{\r\n");
@@ -61,13 +61,12 @@ public final class pobierzDaneBiletu_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("    margin-left: 455px;\r\n");
       out.write("    width: auto;\r\n");
       out.write("    height: 100%;\r\n");
-      out.write("    background-color: #000000;\r\n");
       out.write("    overflow: auto; //przewijanie kursora\r\n");
       out.write("    font-family: Times-New-Roman;   \r\n");
       out.write("    font-size: 24px; \r\n");
       out.write("\t}\r\n");
       out.write(".pole{\r\n");
-      out.write("\tcolor:green;  \r\n");
+      out.write("\tcolor:white;  \r\n");
       out.write("\tfont-weight: lighter; \r\n");
       out.write("\t}\r\n");
       out.write(".potwierdz{ \r\n");
@@ -124,7 +123,7 @@ public final class pobierzDaneBiletu_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");
       out.write("\t<br>\r\n");
-      out.write("    <center><a href=\"index.jsp\"><h3><font color=\"green\">Strona g��wna</h3></center>\r\n");
+      out.write("    <center><a href=\"index.jsp\"><h3><font color=\"green\">Strona glowna</h3></center>\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {

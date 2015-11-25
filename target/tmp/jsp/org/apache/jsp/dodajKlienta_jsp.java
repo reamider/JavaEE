@@ -53,6 +53,8 @@ public final class dodajKlienta_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("<style rel=\"stylesheet\" type=\"text/css\">\r\n");
       out.write("\tbody{\r\n");
       out.write("\t\tbackground-color: #000000;\r\n");
+      out.write("\t\tbackground: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); \r\n");
+      out.write("\t\tbackground-position: center top; no-repeat;\r\n");
       out.write("\t}\r\n");
       out.write("\ttable{\r\n");
       out.write("\t\tborder-collapse: collapse;\r\n");
@@ -62,12 +64,11 @@ public final class dodajKlienta_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("    }\r\n");
       out.write("\ttd{\r\n");
       out.write("\t\tborder: 2px solid green;\r\n");
-      out.write("\t\tcolor: green;\r\n");
+      out.write("\t\tcolor: white;\r\n");
       out.write("\t\tpadding: 5px;\r\n");
       out.write("\t}\r\n");
       out.write("\t.ramka{\r\n");
       out.write("    \tfont-weight: bold;\r\n");
-      out.write("    \tbackground-color: black;\r\n");
       out.write("    \tmargin-left: 455px;\r\n");
       out.write("    }\r\n");
       out.write(" </style>\r\n");
@@ -122,7 +123,7 @@ public final class dodajKlienta_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t</tr>\r\n");
       out.write("</table>\r\n");
       out.write("<br>\r\n");
-      out.write("\t<a href=\"http://localhost:8080/KinoEE/\"><h3><center><font color=\"green\">Powrót do strony głównej</a></h3></center>\r\n");
+      out.write("\t<a href=\"index.jsp\"><h3><center><font color=\"green\">Powrót do strony głównej</a></h3></center>\r\n");
       out.write("\t<a href=\"pobierzDaneKlienta.jsp\"><h3><center><font color=\"green\">Dodaj następnego Klienta</a></h3></center>\r\n");
       out.write("\t<a href=\"pokazKlientow.jsp\"><h3><center><font color=\"green\">Pokaż wszystkich klientów</a></h3></center>\r\n");
       out.write("</div>\r\n");

@@ -12,10 +12,10 @@
 <style rel="stylesheet" type="text/css">
 	body{
 		background-color: #000000;
-		background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
+		background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
 		background-position: center top; no-repeat;
-}
 	}
+	
 	a{ 
 		color: green; 
 		font-weight: bold; 
@@ -23,10 +23,10 @@
 	}
  	td{
  		text-align : center;
- 		color: green;
+ 		color: white;
  	}
  	th{
- 		color: green;
+ 		color: orange;
  	}
     p{
     	margin-left: 12cm;
@@ -34,7 +34,7 @@
     }
     table{
     	margin-left: 140px;
-    }            
+    }           
 </style>
 
 <body>

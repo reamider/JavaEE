@@ -10,14 +10,14 @@
 <style rel="stylesheet" type="text/css">
 	body{
 		background-color: #000000;
-		background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
+		background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
 		background-position: center top; no-repeat;
 	}
 	.przedrostki{ 
-		margin-top: 4cm; 
+		margin-top: 5cm; 
 		margin-left: 15cm; 
 		font-size: 24px;
-		color: green;
+		color: white;
 	}
 	.zapisz{ 
 		margin-left:100px; 
@@ -27,17 +27,17 @@
 		color:green; 
 		font-size:24px; 
 		font-weight:bold; 
-		margin-left: 100px;
+		margin-left: 120px;
 		margin-right:auto;
-		margin-top: 2cm;
+		margin-top: 1cm;
 	}
     h1{
-    	margin-left: 16cm;
     	color: green; 
     	font-size: 40px; 
     	font-style: italic;
         font-family: "Times-New-Roman"; 
-        margin-top: -8cm;
+        margin-top: -11cm;
+		margin-left: 16cm;
 	}
 </style>
 

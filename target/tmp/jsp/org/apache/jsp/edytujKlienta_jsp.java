@@ -54,14 +54,14 @@ public final class edytujKlienta_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("<style rel=\"stylesheet\" type=\"text/css\">\r\n");
       out.write("\tbody{\r\n");
       out.write("\t\tbackground-color: #000000;\r\n");
-      out.write("\t\tbackground: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); \r\n");
+      out.write("\t\tbackground: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); \r\n");
       out.write("\t\tbackground-position: center top; no-repeat;\r\n");
       out.write("\t}\r\n");
       out.write("\t.przedrostki{ \r\n");
-      out.write("\t\tmargin-top: 4cm; \r\n");
+      out.write("\t\tmargin-top: 5cm; \r\n");
       out.write("\t\tmargin-left: 15cm; \r\n");
       out.write("\t\tfont-size: 24px;\r\n");
-      out.write("\t\tcolor: green;\r\n");
+      out.write("\t\tcolor: white;\r\n");
       out.write("\t}\r\n");
       out.write("\t.zapisz{ \r\n");
       out.write("\t\tmargin-left:100px; \r\n");
@@ -73,15 +73,15 @@ public final class edytujKlienta_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\tfont-weight:bold; \r\n");
       out.write("\t\tmargin-left: 120px;\r\n");
       out.write("\t\tmargin-right:auto;\r\n");
-      out.write("\t\tmargin-top: 2cm;\r\n");
+      out.write("\t\tmargin-top: 1cm;\r\n");
       out.write("\t}\r\n");
       out.write("    h1{\r\n");
-      out.write("    \tmargin-left: 16cm;\r\n");
       out.write("    \tcolor: green; \r\n");
       out.write("    \tfont-size: 40px; \r\n");
       out.write("    \tfont-style: italic;\r\n");
       out.write("        font-family: \"Times-New-Roman\"; \r\n");
-      out.write("        margin-top: -8cm;\r\n");
+      out.write("        margin-top: -11cm;\r\n");
+      out.write("\t\tmargin-left: 16cm;\r\n");
       out.write("\t}\r\n");
       out.write("</style>\r\n");
       out.write("\r\n");
@@ -122,14 +122,24 @@ public final class edytujKlienta_jsp extends org.apache.jasper.runtime.HttpJspBa
         	break;
         	}
         }
-   		out.println("<div class = 'przedrostki'><form action='updateKlient'><input type='hidden' name='id' value='" + ID +
-		   "' /><tr><td colspan='2'><b>ID Klienta:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  " + ID +
-		   "</td></tr><br><tr><td><b>Imie: </b> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; </td><td><input type='text' name='imie' pattern='[A-Za-z]*' title='Imie ma powinno składać się tylko z liter' value='" + imie +
-		   "' /></td></tr><br><tr><td><b>Nazwisko:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td><td><input type='text' name='nazwisko' pattern='[A-Za-z]*' title='Nazwisko powinno składać sie tylko z liter' value='" + nazwisko +
-		   "' /></td></tr><tr><br><td><b>Numer telefonu:</b></td><td><input type='text' name='numertelefonu'  pattern='[0-9]*' title='Numer telefonu powinien składać się tylko z liczb' value='" + numertelefonu + 
-		   "' /></td></tr><tr><br><td colspan='2'><div class='zapisz'><input type='submit' value='ZAPISZ'></div></td></tr></form></div>");
 		
       out.write("\r\n");
+      out.write("   \t\t<div class = 'przedrostki'>\r\n");
+      out.write("\t\t<form action='updateKlient'><input type='hidden' name='id' value='\" + ID + \"' />\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t<td colspan='2'><b>ID Klienta:</b>&nbsp; &nbsp;  \" + ID + \"</td></tr>\r\n");
+      out.write("\t\t<br>\r\n");
+      out.write("\t\t<tr><td><b>Imie: </b> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; </td><td><input type='text' name='imie' pattern='[A-Za-z]*' title='Imie powinno składać się tylko z liter' value='\" + imie + \"' /></td></tr>\r\n");
+      out.write("\t\t<br>\r\n");
+      out.write("\t\t<tr><td><b>Nazwisko:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td><td><input type='text' name='nazwisko' pattern='[A-Za-z]*' title='Nazwisko powinno składać sie tylko z liter' value='\" + nazwisko + \"' /></td></tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t<br>\r\n");
+      out.write("\t\t<td><b>Numer telefonu:</b></td><td><input type='text' name='numertelefonu'  pattern='[0-9]*' title='Numer telefonu powinien składać się tylko z liczb' value='\" + numertelefonu + \"' /></td></tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t<br><td colspan='2'><div class='zapisz'><input type='submit' value='ZAPISZ'></div></td>\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("\t\t</form>\r\n");
+      out.write("\t\t</div>\r\n");
       out.write("\t<br>\r\n");
       out.write("\t<a href=\"index.jsp\"><h3><center><font color=\"green\">Powrót do strony głównej</a></h3></center>\r\n");
       out.write("\t<h1>Edytuj Klienta</h1>\r\n");

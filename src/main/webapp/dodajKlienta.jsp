@@ -10,6 +10,8 @@
 <style rel="stylesheet" type="text/css">
 	body{
 		background-color: #000000;
+		background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
+		background-position: center top; no-repeat;
 	}
 	table{
 		border-collapse: collapse;
@@ -19,12 +21,11 @@
     }
 	td{
 		border: 2px solid green;
-		color: green;
+		color: white;
 		padding: 5px;
 	}
 	.ramka{
     	font-weight: bold;
-    	background-color: black;
     	margin-left: 455px;
     }
  </style>
@@ -51,7 +52,7 @@
 	</tr>
 </table>
 <br>
-	<a href="http://localhost:8080/KinoEE/"><h3><center><font color="green">Powrót do strony głównej</a></h3></center>
+	<a href="index.jsp"><h3><center><font color="green">Powrót do strony głównej</a></h3></center>
 	<a href="pobierzDaneKlienta.jsp"><h3><center><font color="green">Dodaj następnego Klienta</a></h3></center>
 	<a href="pokazKlientow.jsp"><h3><center><font color="green">Pokaż wszystkich klientów</a></h3></center>
 </div>

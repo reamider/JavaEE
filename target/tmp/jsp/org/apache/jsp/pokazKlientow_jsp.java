@@ -66,10 +66,10 @@ public final class pokazKlientow_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("<style rel=\"stylesheet\" type=\"text/css\">\r\n");
       out.write("\tbody{\r\n");
       out.write("\t\tbackground-color: #000000;\r\n");
-      out.write("\t\tbackground: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); \r\n");
+      out.write("\t\tbackground: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); \r\n");
       out.write("\t\tbackground-position: center top; no-repeat;\r\n");
-      out.write("}\r\n");
       out.write("\t}\r\n");
+      out.write("\t\r\n");
       out.write("\ta{ \r\n");
       out.write("\t\tcolor: green; \r\n");
       out.write("\t\tfont-weight: bold; \r\n");
@@ -77,10 +77,10 @@ public final class pokazKlientow_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t}\r\n");
       out.write(" \ttd{\r\n");
       out.write(" \t\ttext-align : center;\r\n");
-      out.write(" \t\tcolor: green;\r\n");
+      out.write(" \t\tcolor: white;\r\n");
       out.write(" \t}\r\n");
       out.write(" \tth{\r\n");
-      out.write(" \t\tcolor: green;\r\n");
+      out.write(" \t\tcolor: orange;\r\n");
       out.write(" \t}\r\n");
       out.write("    p{\r\n");
       out.write("    \tmargin-left: 12cm;\r\n");
@@ -88,7 +88,7 @@ public final class pokazKlientow_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("    }\r\n");
       out.write("    table{\r\n");
       out.write("    \tmargin-left: 140px;\r\n");
-      out.write("    }            \r\n");
+      out.write("    }           \r\n");
       out.write("</style>\r\n");
       out.write("\r\n");
       out.write("<body>\r\n");

@@ -9,8 +9,8 @@
 
 <style rel="stylesheet" type="text/css">
 body{
-	background-color: #000000; 
-	background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
+	background-color: #000000;
+	background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
 	background-position: center top; no-repeat;
 	}
 .contentbox{
@@ -18,13 +18,12 @@ body{
     margin-left: 455px;
     width: auto;
     height: 100%;
-    background-color: #000000;
     overflow: auto; //przewijanie kursora
     font-family: Times-New-Roman;   
     font-size: 24px; 
 	}
 .pole{
-	color:green;  
+	color:white;  
 	font-weight: lighter; 
 	}
 .potwierdz{ 
@@ -61,6 +60,6 @@ body{
 	</form>
 	</div>
 	<br>
-    <center><a href="index.jsp"><h3><font color="green">Strona g³ówna</h3></center>
+    <center><a href="index.jsp"><h3><font color="green">Strona glowna</h3></center>
 </body>
 </html>

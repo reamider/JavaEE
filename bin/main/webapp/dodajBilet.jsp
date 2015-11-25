@@ -10,6 +10,8 @@
 <style rel="stylesheet" type="text/css">
 	body{
 		background-color: #000000;
+		background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
+		background-position: center top; no-repeat;
 	}
 	table{
 		border-collapse: collapse;
@@ -19,12 +21,11 @@
     }
 	td{
 		border: 2px solid green;
-		color: green;
+		color: white;
 		padding: 5px;
 	}
 	.ramka{
     	font-weight: bold;
-    	background-color: black;
     	margin-left: 455px;
     }
 </style>

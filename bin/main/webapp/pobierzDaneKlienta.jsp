@@ -9,8 +9,8 @@
 
 <style rel="stylesheet" type="text/css">
 body{
-	background-color: #000000; 
-	background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
+	background-color: #000000;
+	background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
 	background-position: center top; no-repeat;
 }
 .contentbox{
@@ -18,13 +18,17 @@ body{
     margin-left: 455px;
     width: auto;
     height: 100%;
-    background-color: #000000;
-    overflow: auto; //przewijanie kursora
+    overflow: auto; 
     font-family: Times-New-Roman;   
     font-size: 24px; 
 }
-    .pole {color:green;  font-weight: lighter; }
-	.potwierdz { text-align: center;}
+    .pole{
+		color:white;  
+		font-weight: lighter; 
+	}
+	.potwierdz{ 
+		text-align: center;
+	}
 </style>
 
 <body>

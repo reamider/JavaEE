@@ -7,24 +7,25 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <style rel="stylesheet" type="text/css">
-body{
-	background-color: #000000; 
-	background: url('http://www.tapeta-czarne-linie-tlo.na-telefon.org/tapety/czarne-linie-tlo.jpeg'); 
-	background-position: center top; no-repeat;
-}
+	body{
+		background-color: #000000;
+		background: url('http://zapodaj.net/images/d1bbac5508d59.jpg'); 
+		background-position: center top; no-repeat;
+	}
 </style>
 <body bgcolor="black">
 <h1><font color="white"><center>WITAMY W KINIE</center></font></h1>
 <div class="body-content">
 <div class="row">
-<a href="pobierzDaneKlienta.jsp"><h2><font color="green">Dodaj Klienta</font></h2></a>
-<a href="pokazKlientow.jsp"><h2><font color="green">Pokaż wszystkich klientów</font></h2></a>
-<center><img src="http://imagizer.imageshack.us/v2/640x480q90/910/igQSY7.jpg" alt="Witamy w Kinie !" /></center>
-<a href="pobierzDaneBiletu.jsp"><h2><font color="green">Dodaj Bilet</font></h2></a>
-<a href="pokazBilety.jsp"><h2><font color="green">Pokaż wszystkie bilety</font></h2></a>
-<br>
-<br>
-</div>
+<center>
+	<a href="pobierzDaneKlienta.jsp"><h3><center><font color="orange">Dodaj Klienta</a></h3></center>
+	<a href="pokazKlientow.jsp"><h3><center><font color="orange">Pokaż wszystkich klientów</a></h3></center>
+	<a href="pobierzDaneBiletu.jsp"><h3><center><font color="orange">Dodaj Bilet</a></h3></center>
+	<a href="pokazBilety.jsp"><h3><center><font color="orange">Pokaż wszystkie bilety</a></h3></center>
+	</center>
+	<br>
+	<center><img src="http://www.kino.bdk.net.pl/bdk.net.pl/KINO_BRZOZOW_files/kino%202.jpg" alt="Witamy w Kinie ! width="480" height="480"" /></center>
+	</div>
 </div>
 </body>
 </html>
